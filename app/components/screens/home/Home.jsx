@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './Home.module.scss';
 
-const Home = () => {
+const Home = ({ links, me }) => {
   return (
-    <div>Home</div>
+    <section className={styles.sect}>Home</section>
   );
 };
 
