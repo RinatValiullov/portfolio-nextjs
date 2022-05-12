@@ -9,7 +9,7 @@ import RecentVideos from './recent-videos/RecentVideos';
 const Home = ({ links, me }) => {
   return (
     <section className={styles.sect}>
-      <MetaTitle title='4ront Links | Welcome, buddy'></MetaTitle>
+      <MetaTitle title='4ront Links | Welcome, buddy' />
       <div className={styles.container}>
         <AboutMe me={me} />
         <RecentVideos />
