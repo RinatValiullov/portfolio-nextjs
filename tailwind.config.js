@@ -12,7 +12,7 @@ module.exports = {
       borderRadius: {
         layout: '1rem'
       },
-      ketframes: {
+      keyframes: {
         fade: {
           from: { opacity: 0 },
           to: { opacity: 1 }
