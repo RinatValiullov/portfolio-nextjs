@@ -10,7 +10,7 @@
   }
 
   > article {
-    @apply animate-scaleIn absolute right-0 top-10 bg-bgColor text-white text-sm px-4 text-left;
+    @apply animate-scaleIn absolute right-0 top-10 bg-bgColor text-white text-sm p-3 text-left;
 
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     width: 28rem;
