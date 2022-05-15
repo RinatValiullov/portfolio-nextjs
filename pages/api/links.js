@@ -9,7 +9,7 @@ const links = [
       from: '#13E780',
       to: '#00bbd5'
     },
-    link: 'https://htmllessons.ru/?utm_source=youtube&utm_medium=red-group&utm_campaign=red-links&utm_content=link',
+    link: 'https://htmllessons.ru',
     title: 'Моя гордость'
   },
   {

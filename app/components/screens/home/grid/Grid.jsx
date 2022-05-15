@@ -1,8 +1,14 @@
 import React from 'react';
+import styles from './Grid.module.scss';
+import GridItem from './GridItem';
 
 const Grid = ({ links }) => {
   return (
-    <div>Grid</div>
+    <div className={styles.grid}>
+      {links.map(link => (
+        <GridItem key={link._id} item={link} />
+      ))}
+    </div>
   );
 };
 
