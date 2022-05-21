@@ -1,3 +1,5 @@
+@import '../../../assets/styles/media';
+
 .sect {
   @apply relative overflow-hidden;
   min-height: 100vh;
@@ -5,5 +7,12 @@
   .container {
     @apply mx-auto relative z-10;
     max-width: 1000px;
+
+    @include media(laptop) {
+      max-width: 90%;
+    }
+    @include media(mobile) {
+      max-width: 94%;
+    }
   }
 }
